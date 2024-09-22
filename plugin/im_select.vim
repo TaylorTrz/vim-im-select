@@ -150,7 +150,7 @@ function! im_select#enable() abort
             autocmd FocusGained * call im_select#on_focus_gained()
             autocmd FocusLost * call im_select#on_focus_lost()
         endif
-        autocmd VimLeavePre * call im_select#on_vim_leave_pre()
+        " autocmd VimLeavePre * call im_select#on_vim_leave_pre()
     augroup END
 endfunction
 
